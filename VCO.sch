@@ -1,0 +1,178 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Audio:AS3340 U?
+U 1 1 671CD03B
+P 8200 3100
+F 0 "U?" H 8200 3981 50  0000 C CNN
+F 1 "AS3340" H 8200 3890 50  0000 C CNN
+F 2 "" H 8700 2800 50  0001 C CNN
+F 3 "http://www.alfarzpp.lv/eng/sc/AS3340.pdf" H 8800 2650 50  0001 C CNN
+	1    8200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+U 1 1 671CF15E
+P 4200 3000
+F 0 "J?" H 4250 2375 50  0000 C CNN
+F 1 "Power Rail Con." H 4250 2466 50  0000 C CNN
+F 2 "" H 4200 3000 50  0001 C CNN
+F 3 "~" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	-1   0    0    1   
+$EndComp
+Text GLabel 4400 2600 2    50   Input ~ 0
+Gate
+$Comp
+L power:+15V #PWR?
+U 1 1 671D3B71
+P 4400 2900
+F 0 "#PWR?" H 4400 2750 50  0001 C CNN
+F 1 "+15V" V 4415 3028 50  0000 L CNN
+F 2 "" H 4400 2900 50  0001 C CNN
+F 3 "" H 4400 2900 50  0001 C CNN
+	1    4400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 671D561D
+P 4400 2800
+F 0 "#PWR?" H 4400 2650 50  0001 C CNN
+F 1 "+5V" H 4415 2973 50  0000 C CNN
+F 2 "" H 4400 2800 50  0001 C CNN
+F 3 "" H 4400 2800 50  0001 C CNN
+	1    4400 2800
+	0    1    1    0   
+$EndComp
+Text GLabel 4400 2700 2    50   Input ~ 0
+CV
+$Comp
+L power:-15V #PWR?
+U 1 1 671D83FA
+P 4400 3300
+F 0 "#PWR?" H 4400 3400 50  0001 C CNN
+F 1 "-15V" V 4415 3428 50  0000 L CNN
+F 2 "" H 4400 3300 50  0001 C CNN
+F 3 "" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 671D9D29
+P 4400 3000
+F 0 "#PWR?" H 4400 2750 50  0001 C CNN
+F 1 "GND" V 4405 2872 50  0000 R CNN
+F 2 "" H 4400 3000 50  0001 C CNN
+F 3 "" H 4400 3000 50  0001 C CNN
+	1    4400 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 671DB4E1
+P 4400 3100
+F 0 "#PWR?" H 4400 2850 50  0001 C CNN
+F 1 "GND" V 4405 2972 50  0000 R CNN
+F 2 "" H 4400 3100 50  0001 C CNN
+F 3 "" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 671DB6B3
+P 4400 3200
+F 0 "#PWR?" H 4400 2950 50  0001 C CNN
+F 1 "GND" V 4405 3072 50  0000 R CNN
+F 2 "" H 4400 3200 50  0001 C CNN
+F 3 "" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3900 2600 0    50   Input ~ 0
+Gate
+$Comp
+L power:+15V #PWR?
+U 1 1 671E3F86
+P 3900 2900
+F 0 "#PWR?" H 3900 2750 50  0001 C CNN
+F 1 "+15V" V 3915 3028 50  0000 L CNN
+F 2 "" H 3900 2900 50  0001 C CNN
+F 3 "" H 3900 2900 50  0001 C CNN
+	1    3900 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 671E3F8C
+P 3850 2800
+F 0 "#PWR?" H 3850 2650 50  0001 C CNN
+F 1 "+5V" H 3865 2973 50  0000 C CNN
+F 2 "" H 3850 2800 50  0001 C CNN
+F 3 "" H 3850 2800 50  0001 C CNN
+	1    3850 2800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3850 2700 0    50   Input ~ 0
+CV
+$Comp
+L power:-15V #PWR?
+U 1 1 671E3F93
+P 3900 3300
+F 0 "#PWR?" H 3900 3400 50  0001 C CNN
+F 1 "-15V" V 3915 3428 50  0000 L CNN
+F 2 "" H 3900 3300 50  0001 C CNN
+F 3 "" H 3900 3300 50  0001 C CNN
+	1    3900 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 671E3F99
+P 3900 3200
+F 0 "#PWR?" H 3900 2950 50  0001 C CNN
+F 1 "GND" V 3905 3072 50  0000 R CNN
+F 2 "" H 3900 3200 50  0001 C CNN
+F 3 "" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 671E3F9F
+P 3900 3100
+F 0 "#PWR?" H 3900 2850 50  0001 C CNN
+F 1 "GND" V 3905 2972 50  0000 R CNN
+F 2 "" H 3900 3100 50  0001 C CNN
+F 3 "" H 3900 3100 50  0001 C CNN
+	1    3900 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 671E3FA5
+P 3900 3000
+F 0 "#PWR?" H 3900 2750 50  0001 C CNN
+F 1 "GND" V 3905 2872 50  0000 R CNN
+F 2 "" H 3900 3000 50  0001 C CNN
+F 3 "" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
